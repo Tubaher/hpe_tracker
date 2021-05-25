@@ -11,6 +11,7 @@ import argparse
 import motmetrics as mm
 import numpy as np
 import torch
+import logging
 
 from tracker.multitracker import JDETracker
 from tracking_utils import visualization as vis

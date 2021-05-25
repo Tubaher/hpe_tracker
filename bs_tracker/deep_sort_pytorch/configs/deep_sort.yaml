@@ -1,11 +1,11 @@
 DEEPSORT:
   # REID_CKPT: "./deep_sort_pytorch/deep_sort/deep/checkpoint/ckpt.t7"
-  REID_CKPT: "/opt/intel/openvino/deployment_tools/inference_engine/demos/human_pose_estimation_demo/python/bs_tracker/deep_sort_pytorch/deep_sort/deep/checkpoint/ckpt.t7"
+  REID_CKPT: "/opt/intel/openvino/deployment_tools/inference_engine/demos/human_pose_estimation_demo/hpe_tracker/bs_tracker/deep_sort_pytorch/deep_sort/deep/checkpoint/ckpt.t7"
   MAX_DIST: 0.3
   MIN_CONFIDENCE: 0.1
   NMS_MAX_OVERLAP: 0.8
   MAX_IOU_DISTANCE: 0.7
-  MAX_AGE: 10
+  MAX_AGE: 40
   N_INIT: 3
   NN_BUDGET: 200
   
