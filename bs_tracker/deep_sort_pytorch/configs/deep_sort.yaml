@@ -1,0 +1,27 @@
+DEEPSORT:
+  # REID_CKPT: "./deep_sort_pytorch/deep_sort/deep/checkpoint/ckpt.t7"
+  REID_CKPT: "/opt/intel/openvino/deployment_tools/inference_engine/demos/human_pose_estimation_demo/python/bs_tracker/deep_sort_pytorch/deep_sort/deep/checkpoint/ckpt.t7"
+  MAX_DIST: 0.3
+  MIN_CONFIDENCE: 0.1
+  NMS_MAX_OVERLAP: 0.8
+  MAX_IOU_DISTANCE: 0.7
+  MAX_AGE: 10
+  N_INIT: 3
+  NN_BUDGET: 200
+  
+# Run multi-target tracker on a particular sequence.
+#     Parameters
+#     ----------
+#     min_confidence : float
+#         Detection confidence threshold. Disregard all detections that have
+#         a confidence lower than this value.
+#     nms_max_overlap: float
+#         Maximum detection overlap (non-maxima suppression threshold).
+#     min_detection_height : int
+#         Detection height threshold. Disregard all detections that have
+#         a height lower than this value.
+#     max_cosine_distance : float
+#         Gating threshold for cosine distance metric (object appearance).
+#     nn_budget : Optional[int]
+#         Maximum size of the appearance descriptor gallery. If None, no budget
+#         is enforced.

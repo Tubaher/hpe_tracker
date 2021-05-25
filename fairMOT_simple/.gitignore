@@ -1,0 +1,14 @@
+videos/
+experiments/
+src/data/
+src/result*/
+#models/
+src/video*
+src/random*
+src/Shopp*
+*__pycache__
+*.ipynb_checkpoints
+.vscode
+*.pth
+output
+

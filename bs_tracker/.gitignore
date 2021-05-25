@@ -1,0 +1,5 @@
+*.mp4
+.vscode
+*.avi
+stuff
+preprocessed_bb_eddy.py
